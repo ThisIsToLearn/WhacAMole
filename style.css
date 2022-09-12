@@ -1,0 +1,47 @@
+body{
+    margin: 20px 200px 20px 200px;
+}
+header{
+    margin-left: 430px;
+
+}
+
+#container{
+    margin-left: 430px;
+}
+
+.grid{
+    
+    height: 416px;
+    width: 416px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div{
+
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url('green.png');
+    cursor: pointer;
+}
+
+#score{
+    float: right;
+    height: 15px;
+    width: 400px;
+    font-size: 50px;
+}
+.time {
+    float: right;
+    width: 400px;
+
+}
+
+.mole{
+    background-image: url('mole.png') !important;
+    background-repeat: no-repeat ;
+    background-size: 125%;
+}
